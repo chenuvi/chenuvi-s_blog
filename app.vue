@@ -5,7 +5,7 @@ import '@unocss/reset/tailwind.css'
 <template>
   <NuxtLayout>
     <NuxtLoadingIndicator color="#777" />
-    <NuxtPage />
+    <NuxtPage class="prose" />
   </NuxtLayout>
 </template>
 
