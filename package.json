@@ -10,12 +10,15 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "nuxt": "^3.11.2",
-    "vue": "^3.4.27",
-    "vue-router": "^4.3.2"
+    "@iconify-json/icon-park-outline": "^1.1.15",
+    "@vueuse/core": "^10.9.0"
   },
   "devDependencies": {
+    "nuxt": "^3.11.2",
+    "@nuxt/content": "^2.12.1",
     "@unocss/nuxt": "^0.60.0",
-    "unocss": "^0.60.0"
+    "@vueuse/nuxt": "^10.9.0",
+    "unocss": "^0.60.0",
+    "unocss-preset-chinese": "^0.3.2"
   }
 }
