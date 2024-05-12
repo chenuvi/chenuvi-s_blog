@@ -12,6 +12,13 @@ node_modules
 # Logs
 logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+pnpm-lock.yaml*
+lerna-debug.log*
+package-lock.json
 
 # Misc
 .DS_Store
