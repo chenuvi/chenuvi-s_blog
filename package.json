@@ -19,6 +19,8 @@
     "@unocss/nuxt": "^0.60.0",
     "@vueuse/nuxt": "^10.9.0",
     "nuxt": "^3.11.2",
+    "sass": "^1.77.1",
+    "ufo": "^1.5.3",
     "unocss": "^0.60.0",
     "unocss-preset-chinese": "^0.3.2",
     "unocss-preset-theme": "^0.12.0"
