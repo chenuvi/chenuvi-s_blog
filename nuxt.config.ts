@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   modules: ["@unocss/nuxt", "@vueuse/nuxt", "@nuxt/content"],
   app: {
     head: {
+      link: [{ rel: "icon", type: "image/svg+xml", href: "/favicon.svg" }],
       meta: [
         { name: "description", content: siteConfig.description },
         { name: "author", content: siteConfig.author },
@@ -21,8 +22,6 @@ export default defineNuxtConfig({
         lang: siteConfig.lang,
       },
     },
-    pageTransition: { name: "page", mode: "out-in" },
-    layoutTransition: { name: "layout", mode: "out-in" },
   },
   content: {
     // My custom configuration

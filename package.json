@@ -12,7 +12,8 @@
   "dependencies": {
     "@iconify-json/icon-park-outline": "^1.1.15",
     "@unocss/reset": "^0.60.2",
-    "@vueuse/core": "^10.9.0"
+    "@vueuse/core": "^10.9.0",
+    "date-fns": "^3.6.0"
   },
   "devDependencies": {
     "@nuxt/content": "^2.12.1",
