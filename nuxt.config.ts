@@ -6,6 +6,11 @@ export default defineNuxtConfig({
     head: {
       link: [{ rel: "icon", type: "image/svg+xml", href: "/favicon.svg" }],
       meta: [
+        {
+          hid: "keywords",
+          name: "keywords",
+          content: "chenuvi, blog, ChenUvi, 陈昆, 陳有味，博客，",
+        },
         { name: "description", content: siteConfig.description },
         { name: "author", content: siteConfig.author },
         {
